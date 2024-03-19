@@ -1,0 +1,15 @@
+p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+input.success {
+    border-color: green;
+}
+
+input.error {
+    border-color: red;
+}

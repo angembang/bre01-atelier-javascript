@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Atelier JS</title>
+
+        <link rel="stylesheet" href="assets/styles/css/style.css" />
+
+    </head>
+
+    <body>
+        
+        <h1>Inscription</h1>
+    
+    <form id="registrationForm" action="#" method="post">
+        <fieldset>
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required>
+            <p id="nomError"></p>
+        </fieldset>
+        <fieldset>
+            <label for="prenom">Prénom:</label><br>
+            <input type="text" id="prenom" name="prenom" required>
+            <p id="prenomError"></p>
+        <fieldset>
+        <fieldset>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <p id="emailError"></p>
+        </fieldset>
+        <fieldset>
+            <label for="password">Mot de passe:</label><br>
+            <input type="password" id="password" name="password" required>
+            <p id="passwordError"></p>
+        <fieldset>
+        <fieldset>
+            <label for="confirmPassword">Confirmation de mot de passe:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <p id="confirmPasswordError"></p>
+        </fieldset>
+        <fieldset>
+            <button type="submit" id="submitButton" disabled>S'inscrire</button>
+        </fieldset>
+    </form>
+
+
+ 
+
+        <script type="module" src="assets/js/main.js"></script>
+
+    </body>
+
+</html>
